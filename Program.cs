@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*Code below is from https://learn.microsoft.com/en-us/training/modules/visual-studio-test-tools/3-exercise-write-test
+  This code was used so I can complete the tutorial at this site on how to create automated tests.*/
+
 namespace LearnMyCalculatorApp
 {
     public class Calculator
