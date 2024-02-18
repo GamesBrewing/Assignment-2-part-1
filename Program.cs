@@ -1,0 +1,43 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace LearnMyCalculatorApp
+{
+    public class Calculator
+    {
+        public int Add(int x, int y)
+        {
+            return x + y;
+        }
+
+        public int Subtract(int x, int y)
+        {
+            return x - y;
+        }
+
+        public int Multiply(int x, int y)
+        {
+            return x * y;
+        }
+
+        public int Divide(int x, int y)
+        {
+            return x / y;
+        }
+    }
+
+    internal class Program
+    {
+        static void Main()
+        {
+            int x = 0;
+            int y = 0;
+
+            Calculator calculator = new Calculator();
+
+        }
+    }
+}
