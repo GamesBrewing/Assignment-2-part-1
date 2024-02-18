@@ -26,9 +26,17 @@ namespace LearnMyCalculatorApp
             return x * y;
         }
 
-        public int Divide(int x, int y)
+        public int? Divide(int x, int y)
         {
-            return x / y;
+        if (y == 0)
+            {
+                Console.WriteLine("Can't divide by zero.");
+                return null;
+            }
+            else
+            {
+                return x / y;
+            }
         }
     }
 
